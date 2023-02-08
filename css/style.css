@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common css start */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* common css end */
+
+/* header start */
+
+.banner {
+    background: url(../images/banner/banner2.png);
+    padding: 167px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-body {
+    display: flex;
+    justify-content: end;
+}
+
+.banner-text {
+    width: 400px;
+    text-align: end;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 24px;
+}
+
+.banner-text p {
+    padding-bottom: 34px;
+}
+
+.banner-text a {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 26px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: white;
+}
+
+/* header end */
