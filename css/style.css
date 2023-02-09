@@ -137,12 +137,31 @@ span i {
 
 .positive-body {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 59px 64px;
+    border-radius: 8px;
+}
+
+.positive-text {
+    width: 400px;
 }
 
 .positive-text h2 {
     font-weight: 700;
     font-size: 40px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.positive-text a {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #F15B22;
+    background-color: white;
 }
 
 /* positive section end */
