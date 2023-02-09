@@ -57,3 +57,52 @@ a {
 }
 
 /* header end */
+
+/* fuilures section start */
+.failures {
+    padding: 100px 0;
+    background-color: rgb(233, 230, 230);
+}
+
+.failures-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failures-left {
+    width: 50%;
+}
+
+.failures-left img {
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+.failures-right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.failures-text {
+    width: 395px;
+}
+
+.failures-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failures-text p {
+    margin-bottom: 16px;
+}
+
+span i {
+    color: #16D887;
+    margin-right: 10px;
+
+}
+
+/* fuilures section end */
