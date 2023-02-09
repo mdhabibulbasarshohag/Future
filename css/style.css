@@ -165,3 +165,78 @@ span i {
 }
 
 /* positive section end */
+
+/* send section start */
+.send {
+    padding: 100px 0;
+    background-color: rgb(233, 230, 230);
+}
+
+.send-body {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.send-left {
+    background: linear-gradient(90deg, rgba(241, 91, 34, 0.3) 0%, rgba(241, 91, 34, 0.3) 100%), url("../images/woman-writing-on-paper-3228878.png");
+    width: 50%;
+    padding: 70px;
+}
+
+.send-left-text {
+    color: white;
+}
+
+.send-left-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.send-right {
+    background-color: #ff7b47;
+    width: 50%;
+    padding: 70px;
+    color: white;
+}
+
+.send-right-text h3 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.send-right-text p {
+    margin-bottom: 25px;
+}
+
+.send-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-form input {
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.send-form button {
+    padding: 15px 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+
+    color: #F15B22;
+}
+
+.send-form button:hover {
+    background-color: rgb(125, 125, 255);
+    color: white;
+}
+
+/* send section end */
