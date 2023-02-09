@@ -106,3 +106,43 @@ span i {
 }
 
 /* fuilures section end */
+
+/* plans section start */
+.plans {
+    padding: 100px 0;
+    background-color: rgb(233, 230, 230);
+
+}
+
+.plans-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans-cart {
+    text-align: center;
+}
+
+.cart-body h3 {
+    font-size: 30px;
+}
+
+/* plans section end */
+
+/* positive section start */
+.positive {
+    padding: 100px 0;
+    background-color: rgb(233, 230, 230);
+}
+
+.positive-body {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+    padding: 59px 64px;
+}
+
+.positive-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* positive section end */
